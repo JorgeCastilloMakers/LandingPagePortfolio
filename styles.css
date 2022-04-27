@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contenedor {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+    
+}
+
+
+
+.navarcito {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    
+    
+    
+}
+
+.logo {
+    width: 180px;
+}
+
+.list {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+li {
+    
+  
+    padding: 14px 16px;
+   
+  }
+
+.link {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    
+
+    
+}
+
+.link:hover {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;  
+}
+
+.active {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;  
+}
