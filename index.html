@@ -8,21 +8,72 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <div class="contenedor">
-        <img class="logo" src="images/J.DEVparanegro.png">
-        <nav class="navarcito">
-            <ul class="list">
-                <li><a class="link active" href="#">Home</a></li>
-                <li><a class="link" href="#">Acerca de mí</a></li>
-                <li><a class="link" href="#">Desafios</a></li>
-                <li><a class="link" href="#">Contacto</a></li>
+    <header>
+        <nav class="nav">
 
-            </ul>
+            <div class="nav-container">
+                <div class="logo-container"><img class="nav-logo" src="images/1.png"></div>   
+                <label for="menu" class="nav-label">
+                    <img src="images/menu.svg" alt="" class="nav-img">
+                </label>
+                <input type="checkbox" id="menu" class="nav-input">
+                <div class="nav-menu">
+                    <a href="#about" class="nav-item">Acerca de mí</a>
+                    <a href="#" class="nav-item">#Challenges</a>
+                    <a href="#" class="nav-item">Contacto</a>
+                </div>
+            </div>  
+        </nav>
+    </header>
+    <main class="centro">
+        <section class="hero">
+            <div class="presentacion">
+                <h2 class="titportada">Hola, mi nombre es <div class="conteinType"><div class="typed-out"><span id="nombre">Jorge Castillo</span></div></div></h2>
+                <h1 class="subtitulo">Soy estudiante de Nucba en la carrera <span>Full Stack Developer</span></h1>
+                <button class="sobre-mi">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text"><a id="anchorabout"  href="#about">Más sobre mí</a></span>
+                </button>
+            </div>
+            <div class="gif">
+                <img class="jason" src="images/animation_640_l2whzusi.gif" alt=""> 
+            </div>
+        </section>
+        <section class="about">
+            <div class="container-ghost">
+            <div class="conten">
+                    <img class="foto" src="images/yo-web2.png" alt="">
+            </div>
+            <div class="conten2">
+                <h2 id="about">Acerca de mí</h2>
+                <p>Mi nombre es Jorge, hoy estudiante del stack MERN en Nucba, de gran pasión por el front 
+                    pero enfocado en disminuir procesos administrativos. Hace dos años que que trabajo con webs utilizando el CMS Wordpress
+                    con el cual diseñe desde simple pages hasta tiendas online. También trabajo sobre Appsheet diseñando
+                    apps para agilizar procesos administrativos en la empresa donde trabajo. Es por ello que comence mi carrera, 
+                    para dejar de lado estos sistemas y diseñar los propios código a código. 
+                </p>
+                <div>
+                    <a href="https://discord.gg/ZwyHcBDw" target="a_blank"><img class="social-icon" src="images/discord (1).png"></a>
+                    <a href="https://www.instagram.com/jorge.a.c/" target="a_blank"><img class="social-icon" src="images/instagram.png"></a>
+                    <a href="https://www.linkedin.com/in/jorge-ariel-castillo-401686a5/" target="a_blank"><img class="social-icon" src="images/linkedin.png"></a>
+                </div>
+            </div>
+            </div>
+        </section>
 
-        </article>
-     
 
-    </div>
+ <footer class="foot">
+        <p id="pie">
+            Copyright © 2022 <span>J.DEV</span>
+        </p>
+
+    </footer>
+    </main>
+    
+   
+
     
 </body>
 </html>
